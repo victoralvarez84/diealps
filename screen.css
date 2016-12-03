@@ -9133,6 +9133,14 @@ nav {
   opacity: 0.8;
   font-size: 40px;
 }
+#container ul li a:link {
+  text-decoration: none;
+  opacity: 0.6;
+}
+#container ul li a:visited {
+  text-decoration: none;
+  opacity: 1;
+}
 #container ul li a:hover {
   text-decoration: none;
   opacity: 1;
