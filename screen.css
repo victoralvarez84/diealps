@@ -9209,6 +9209,11 @@ form h2 {
   width: 13.8%;
   margin-top: 3px;
 }
+@media (max-width: 768px) {
+  .input {
+    height: 30px;
+  }
+}
 @media (max-width: 434px) {
   .input {
     margin-top: 30px;
@@ -9223,6 +9228,11 @@ form h2 {
   font-family: futura;
   opacity: 1.0;
   margin-top: 3px;
+}
+@media (max-width: 768px) {
+  .submit {
+    height: 30px;
+  }
 }
 @media (max-width: 434px) {
   .submit {
@@ -9259,7 +9269,7 @@ form h2 {
   #blog a h1 {
     font-size: 80px;
     opacity: 1;
-    margin-top: -40%;
+    margin-top: -28%;
   }
 }
 #blog a h1:hover {
