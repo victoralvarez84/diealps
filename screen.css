@@ -9000,11 +9000,11 @@ html {
 }
 #Splash a {
   font-family: futura;
-  font-size: 50px;
+  font-size: 40px;
   opacity: 0.7;
   color: white;
   transition: transform 300ms ease;
-  padding-right: 10px;
+  padding-right: 15px;
   margin-top: 5%;
 }
 @media (max-width: 768px) {
@@ -9359,4 +9359,9 @@ form h2 {
 }
 #socialMediaFooter a i:hover {
   color: skyblue;
+}
+#test {
+  height: 0vh;
+  width: 0vw;
+  background-color: transparent;
 }
