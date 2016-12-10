@@ -9303,6 +9303,7 @@ form {
 iframe {
   border: 2px solid transparent;
   margin-top: 5px;
+  width: 100%;
 }
 @media (max-width: 414px) {
   iframe {
