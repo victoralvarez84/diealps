@@ -9184,9 +9184,14 @@ nav {
   align-items: center;
   justify-content: center;
 }
+@media (max-width: 414px) {
+  .blogContainer {
+    height: 92%;
+  }
+}
 #blog h1 {
   font-family: futura;
-  font-size: 500%;
+  font-size: 550%;
 }
 @media (max-width: 768px) {
   #blog h1 {
@@ -9264,17 +9269,13 @@ form {
   .blogBottom {
     justify-content: center;
     align-items: center;
+    height: 8vh;
   }
 }
 .blogBottom h6 {
   color: #333;
   opacity: 0.5;
   font-size: 10px;
-}
-@media (max-width: 414px) {
-  .blogBottom h6 {
-    margin-top: 0px;
-  }
 }
 .blogBottom a {
   color: #333;
